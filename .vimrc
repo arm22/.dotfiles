@@ -8,12 +8,13 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-"Additional packages 
+"Additional packages
 Plugin 'flazz/vim-colorschemes'
 Plugin 'pangloss/vim-javascript'
 Plugin 'elzr/vim-json'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'mxw/vim-jsx'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,3 +39,4 @@ set autochdir 		            " set working directory automatically
 set expandtab		            " set indentation settings
 set shiftwidth=2
 set softtabstop=2
+let vim_markdown_preview_github=1
