@@ -34,7 +34,6 @@ syntax on                           " turn on syntax highlighting
 hi Normal ctermbg=none              " set transparent bg
 let g:jsx_ext_required = 0          " jsx highlighting
 set number                          " set lines on
-set autochdir                       " set working directory automatically
 set expandtab                       " set indentation settings
 set shiftwidth=2
 set softtabstop=2
