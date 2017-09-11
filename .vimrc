@@ -14,6 +14,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'elzr/vim-json'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'mxw/vim-jsx'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -37,3 +38,5 @@ set number                          " set lines on
 set expandtab                       " set indentation settings
 set shiftwidth=2
 set softtabstop=2
+set t_Co=256
+colorscheme blacksea
